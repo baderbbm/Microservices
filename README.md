@@ -32,6 +32,6 @@ Microservice chargé de gérer les notes médicales attribuées aux patients par
 
 Microservice responsable du calcul du risque de diabète pour les patients en fonction de leurs données médicales. Il récupère les informations pertinentes sur les patients, telles que les données biométriques et les antécédents médicaux, et utilise un algorithme pour calculer le niveau de risque de diabète.
 
-## Utilisation des Conteneurs Docker
+## Utilisation des conteneurs Docker
 
 Chaque microservice est packagé dans un conteneur Docker pour une distribution et un déploiement facile.
