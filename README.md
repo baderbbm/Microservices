@@ -4,33 +4,33 @@ Ce repository contient cinq microservices développés pour différentes fonctio
 
 ## Structure du Repository
 
-- `Microservice1`: Description courte du microservice 1.
-- `Microservice2`: Description courte du microservice 2.
-- `Microservice3`: Description courte du microservice 3.
-- `Microservice4`: Description courte du microservice 4.
-- `Microservice5`: Description courte du microservice 5.
+- `Microservice1`: Front - Gère l'interface utilisateur et interagit avec les autres microservices.
+- `Microservice2`: Gateway - Fournit une passerelle pour les requêtes entre les microservices et gère l'authentification.
+- `Microservice3`: Patient - Gère les informations des patients et les opérations CRUD associées.
+- `Microservice4`: Medecin - Gère les notes médicales attribuées aux patients par les médecins.
+- `Microservice5`: Risque - Calcule le risque de diabète pour les patients en fonction de leurs données médicales.
 
 ## Description des Microservices
 
-### Microservice1
+### Microservice1 (Front)
 
-Description détaillée du microservice 1, y compris ses fonctionnalités, son objectif, et comment l'utiliser.
+Microservice responsable de l'interface utilisateur. Il communique avec les autres microservices pour afficher les informations aux utilisateurs finaux. Les fonctionnalités principales incluent l'affichage des patients, l'ajout de nouveaux patients, la modification des informations des patients, etc.
 
-### Microservice2
+### Microservice2 (Gateway)
 
-Description détaillée du microservice 2, y compris ses fonctionnalités, son objectif, et comment l'utiliser.
+Microservice servant de point d'entrée central pour toutes les requêtes. Il gère l'authentification des utilisateurs et dirige les requêtes vers les microservices appropriés en fonction des routes définies. Les fonctionnalités comprennent la gestion de l'authentification, le routage des requêtes, etc.
 
-### Microservice3
+### Microservice3 (Patient)
 
-Description détaillée du microservice 3, y compris ses fonctionnalités, son objectif, et comment l'utiliser.
+Microservice responsable de la gestion des informations relatives aux patients. Il permet d'effectuer des opérations CRUD (Création, Lecture, Mise à jour, Suppression) sur les données des patients, telles que l'ajout de nouveaux patients, la mise à jour des informations des patients, la récupération des détails d'un patient spécifique, etc.
 
-### Microservice4
+### Microservice4 (Medecin)
 
-Description détaillée du microservice 4, y compris ses fonctionnalités, son objectif, et comment l'utiliser.
+Microservice chargé de gérer les notes médicales attribuées aux patients par les médecins. Il permet d'ajouter de nouvelles notes médicales, de récupérer les notes associées à un patient spécifique, etc.
 
-### Microservice5
+### Microservice5 (Risque)
 
-Description détaillée du microservice 5, y compris ses fonctionnalités, son objectif, et comment l'utiliser.
+Microservice responsable du calcul du risque de diabète pour les patients en fonction de leurs données médicales. Il récupère les informations pertinentes sur les patients, telles que les données biométriques et les antécédents médicaux, et utilise un algorithme pour calculer le niveau de risque de diabète.
 
 ## Contribuer
 
