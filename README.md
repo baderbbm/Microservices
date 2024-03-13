@@ -12,23 +12,23 @@ Ce repository contient cinq microservices développés pour différentes fonctio
 
 ## Description des Microservices
 
-### Microservice1 (Front)
+### Microservice-Front
 
 Microservice responsable de l'interface utilisateur. Il communique avec les autres microservices pour afficher les informations aux utilisateurs finaux. Les fonctionnalités principales incluent l'affichage des patients, l'ajout de nouveaux patients, la modification des informations des patients, etc.
 
-### Microservice2 (Gateway)
+### Microservice-Gateway
 
 Microservice servant de point d'entrée central pour toutes les requêtes. Il gère l'authentification des utilisateurs et dirige les requêtes vers les microservices appropriés en fonction des routes définies. Les fonctionnalités comprennent la gestion de l'authentification, le routage des requêtes, etc.
 
-### Microservice3 (Patient)
+### Microservice-Patient
 
 Microservice responsable de la gestion des informations relatives aux patients. Il permet d'effectuer des opérations CRUD (Création, Lecture, Mise à jour, Suppression) sur les données des patients, telles que l'ajout de nouveaux patients, la mise à jour des informations des patients, la récupération des détails d'un patient spécifique, etc.
 
-### Microservice4 (Medecin)
+### Microservice-Medecin
 
 Microservice chargé de gérer les notes médicales attribuées aux patients par les médecins. Il permet d'ajouter de nouvelles notes médicales, de récupérer les notes associées à un patient spécifique, etc.
 
-### Microservice5 (Risque)
+### Microservice-Risque
 
 Microservice responsable du calcul du risque de diabète pour les patients en fonction de leurs données médicales. Il récupère les informations pertinentes sur les patients, telles que les données biométriques et les antécédents médicaux, et utilise un algorithme pour calculer le niveau de risque de diabète.
 
