@@ -31,15 +31,3 @@ Microservice chargé de gérer les notes médicales attribuées aux patients par
 ### Microservice-Risque
 
 Microservice responsable du calcul du risque de diabète pour les patients en fonction de leurs données médicales. Il récupère les informations pertinentes sur les patients, telles que les données biométriques et les antécédents médicaux, et utilise un algorithme pour calculer le niveau de risque de diabète.
-
-## Contribuer
-
-Les contributions sont les bienvenues! Si vous souhaitez contribuer à l'amélioration de l'un des microservices ou ajouter de nouvelles fonctionnalités, n'hésitez pas à soumettre une pull request.
-
-## Auteurs
-
-Liste des contributeurs ou de l'équipe de développement derrière ces microservices.
-
-## Licence
-
-Indiquez la licence sous laquelle ce repository est distribué. Par exemple, MIT, Apache, etc.
