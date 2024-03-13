@@ -4,11 +4,11 @@ Ce repository contient cinq microservices développés pour différentes fonctio
 
 ## Structure du Repository
 
-- `Microservice1`: Front - Gère l'interface utilisateur et interagit avec les autres microservices.
-- `Microservice2`: Gateway - Fournit une passerelle pour les requêtes entre les microservices et gère l'authentification.
-- `Microservice3`: Patient - Gère les informations des patients et les opérations CRUD associées.
-- `Microservice4`: Medecin - Gère les notes médicales attribuées aux patients par les médecins.
-- `Microservice5`: Risque - Calcule le risque de diabète pour les patients en fonction de leurs données médicales.
+- `Microservice-Front` - Gère l'interface utilisateur et interagit avec les autres microservices.
+- `Microservice-Gateway` - Fournit une passerelle pour les requêtes entre les microservices et gère l'authentification.
+- `Microservice-Patient` - Gère les informations des patients et les opérations CRUD associées.
+- `Microservice-Medecin` - Gère les notes médicales attribuées aux patients par les médecins.
+- `Microservice-Risque`  - Calcule le risque de diabète pour les patients en fonction de leurs données médicales.
 
 ## Description des Microservices
 
