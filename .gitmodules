@@ -1,0 +1,15 @@
+[submodule "Microservices-Front"]
+	path = Microservices-Front
+	url = https://github.com/baderbbm/Microservices-Front.git
+[submodule "Microservices-Gateway"]
+	path = Microservices-Gateway
+	url = https://github.com/baderbbm/Microservices-Gateway.git
+[submodule "Microservices-Patient"]
+	path = Microservices-Patient
+	url = https://github.com/baderbbm/Microservices-Patient.git
+[submodule "Microservices-Medecin"]
+	path = Microservices-Medecin
+	url = https://github.com/baderbbm/Microservices-Medecin.git
+[submodule "Microservices-Risque"]
+	path = Microservices-Risque
+	url = https://github.com/baderbbm/Microservices-Risque.git
