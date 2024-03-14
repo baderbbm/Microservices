@@ -32,6 +32,10 @@ Microservice chargé de gérer les notes médicales attribuées aux patients par
 
 Microservice responsable du calcul du risque de diabète pour les patients en fonction de leurs données médicales. Il récupère les informations pertinentes sur les patients, telles que les données biométriques et les antécédents médicaux, et utilise un algorithme pour calculer le niveau de risque de diabète.
 
+### Green Code
+
+Le code implémente une stratégie de "green code" qui exclut les appels aux microservices de Medecin et Risque lorsque l'utilisateur a le rôle Organisateur. Cette approche vise à améliorer les performances en évitant les traitements superflus lorsque les données des microservices ne sont pas pertinentes pour l'utilisateur concerné. Ainsi, lorsque l'utilisateur est identifié en tant qu'organisateur, seul un appel au microservice Patient est déclenché.
+
 ## Utilisation des conteneurs Docker
 
 Chaque microservice est packagé dans un conteneur Docker pour une distribution et un déploiement facile.
